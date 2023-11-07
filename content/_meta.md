@@ -1,8 +1,8 @@
 ---
-Logo: me_pic.jpg
+Logo: image/yy.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link till mitt github repo
+      url: https://github.com/racoontwo
       icon: github
 ---
