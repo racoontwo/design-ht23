@@ -1,8 +1,14 @@
 ---
+# Logo: image/yy.png
+# Tagline: My portfolio.
+# Social:
+#     - title: Link till mitt github repo
+#       url: https://github.com/racoontwo
+#       icon: github
 Logo: image/yy.png
 Tagline: My portfolio.
 Social:
-    - title: Link till mitt github repo
-      url: https://github.com/racoontwo
-      icon: github
+  - title: Link till mitt github repo.
+    url: https://github.com/racoontwo
+    icon: fab fa-github
 ---
