@@ -4,6 +4,7 @@ Description: This is our index page for tech.
 Template: technologies
 ---
 
+
 <h1>TECH</h1>
 
 <div class="css box">
