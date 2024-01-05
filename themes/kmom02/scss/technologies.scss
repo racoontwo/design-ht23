@@ -1,0 +1,109 @@
+
+.main {
+    margin: 0 20%; /* 20% margin on left and right */
+}
+
+.landingpage {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    gap: 1rem 2rem;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-content: stretch;
+}
+
+.box {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landingpage > *:not(h1):hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+
+.css {
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+}
+
+.git {
+    grid-column: 3;
+    grid-row: 2 / 3;
+}
+
+.html {
+    grid-column: 1 / span 1;
+    grid-row: 3 / 5;
+}
+
+.js {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+.php {
+    grid-column: 1 / span 2;
+    grid-row: 5 / 6 ;
+}
+
+.python {
+    grid-column: 3;
+    grid-row: 5 / 6;
+}
+
+.sqlite {
+    grid-column: span 3;
+    grid-row: 6 / 7;
+}
+
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 30%;
+}
+
+.tech-content {
+    width: 60%;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .landingpage {
+        grid-template-columns: 90%; 
+        margin: 0 auto;
+
+        // grid-template-columns: 1fr; 
+    }
+
+
+    .landingpage > * {
+        grid-column: 1;
+        grid-row: auto;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+    }
+
+
+    .tech-menu {
+        display: none;
+    }
+}
