@@ -1,0 +1,16 @@
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+.main {
+    width: 64em;
+    margin: 0 auto;
+}
+
+.social a {
+    text-decoration: none;
+}
